@@ -31,7 +31,6 @@ class main():
         with open(input_file, encoding='UTF-8') as f:
             rows = csv.reader(f,delimiter=",",lineterminator="\n")
             for row in rows:
-                print('*')
                 user = {}
                 user['username'] = row[0]
                 user['name'] = row[1]
